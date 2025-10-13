@@ -1,8 +1,6 @@
 ___
 
-layout: portfolio
 permalink: /portfolio/
-title: an archive of my previous work
 tags: portfolio
 
 ---
