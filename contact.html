@@ -1,38 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <meta charset="UTF-8">
-    <style>
+<head>
+  <meta charset="UTF-8">
+  <title>My Website</title>
+  <style>
+    /* Center the navigation links */
     nav {
-  text-align: center;
-
-  <a href="index.html">home</a>
-  <a href="about.html">about</a>
-  <a href="contact.html">contact</a>
+      text-align: center;
+      margin-top: 20px;
     }
+
+    /* Style each link as a boxed button */
+    nav a {
+      border: 2px solid black;
+      padding: 10px 15px;
+      background-color: #f9f9f9;
+      text-decoration: none;
+      color: black;
+      margin: 5px;
+      display: inline-block;
+      border-radius: 5px;
+    }
+
+    /* Basic layout styling */
     body {
-        margin: 0;
+      margin: 0;
       font-family: Arial, serif;
     }
-    .container{
+
+    .container {
       max-width: 1000px;
-        margin: 0 auto;
-        padding: 20px;
+      margin: 0 auto;
+      padding: 20px;
     }
-       .boxed-text {
+
+    .boxed-text {
       border: 2px solid black;
       padding: 10px;
       background-color: #f9f9f9;
       display: inline-block;
     }
-    </style>
-  </head>
-  <body>
- <div class="container">
-     <h3 class="boxed-text">let's talk!</h3><br>
-    email: emmanuellasainvilus@gmail.com</br>
-  phone: 347 722 1658<br>
-  </br>
- </div>
-  </body>
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">home</a>
+    <a href="about.html">about</a>
+    <a href="contact.html">contact</a>
+  </nav>
+
+  <div class="container">
+    <h3 class="boxed-text"> let's talk</h3>
+    <p>email: emmanuellasainvilus@gmail
+    phone: 347 722 1658</p>
+  </div>
+
+</body>
 </html>
