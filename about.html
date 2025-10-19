@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>contact</title>
-    <style>
+  <style>
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -22,33 +22,49 @@
     p {
       margin: 10px 0;
     }
-      
+
     .my-text {
       font-family: Arial, sans-serif;
       font-weight: bold;
     }
+
     nav a {
-  background-color: #eaeaea;
-  text-decoration: none;
-  color: black;
-  margin: 5px;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-}
+      background-color: #eaeaea;
+      text-decoration: none;
+      color: black;
+      margin: 5px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    /* --- New Frame Border --- */
+    .frame-border {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border: 10px solid black;
+      pointer-events: none;
+      z-index: 9999;
+    }
   </style>
-  
 </head>
 <body>
-<nav>
+  <nav>
     <a href="index.html">home</a>
     <a href="about.html">about</a>
     <a href="contact.html">contact</a>
   </nav>
-  
+
   <h3 class="boxed-text">about me</h3>
 
-  <p>a new york native and data science student @ cuny queens college.
+  <p>a new york native and data science student @ cuny queens college.</p>
   <p>story-teller of statistics</p>
   <p>enjoyer of drunken noodles and samba rock</p>
+
+  <!-- Add the frame border here -->
+  <div class="frame-border"></div>
 </body>
 </html>
+
