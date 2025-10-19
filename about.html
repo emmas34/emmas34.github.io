@@ -37,7 +37,7 @@
       font-weight: bold;
     }
 
-    /* --- New Frame Border --- */
+    /* Frame border */
     .frame-border {
       position: fixed;
       top: 0;
@@ -48,23 +48,41 @@
       pointer-events: none;
       z-index: 9999;
     }
+
+    /* Landing text */
+    .landing-text {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      font-size: 4rem;
+      font-weight: bold;
+      font-family: Arial, sans-serif;
+      z-index: 1000;
+    }
   </style>
 </head>
 <body>
+
+  <!-- Landing Text -->
+  <div class="landing-text">hi, I'm emma</div>
+
+  <!-- Navigation -->
   <nav>
     <a href="index.html">home</a>
     <a href="about.html">about</a>
     <a href="contact.html">contact</a>
   </nav>
 
+  <!-- Main Content -->
   <h3 class="boxed-text">about me</h3>
 
   <p>a new york native and data science student @ cuny queens college.</p>
   <p>story-teller of statistics</p>
   <p>enjoyer of drunken noodles and samba rock</p>
 
-  <!-- Add the frame border here -->
+  <!-- Frame Border -->
   <div class="frame-border"></div>
 </body>
 </html>
+
 
